@@ -1,0 +1,143 @@
+/* Container Styling */
+.container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Image Styling */
+  .image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .stock-image {
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Content Styling */
+  .content {
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  h1 {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .highlight {
+    color: orange;
+  }
+  
+  p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* Form Styling */
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .input-field {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .submit-button {
+    background-color: orange;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: darkorange;
+  }
+  
+  /* Payment Info */
+  .payment-info {
+    font-size: 16px;
+    margin-top: 12px;
+  }
+  
+  .link {
+    color: orange;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  /* Popup Modal Styling */
+  .popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 80%;
+    max-width: 400px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .popup-content h2 {
+    margin-bottom: 10px;
+  }
+  
+  .close-button {
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: orange;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .close-button:hover {
+    background-color: darkorange;
+  }
+  
+  /* Mobile Responsive */
+  @media (max-width: 600px) {
+    .stock-image {
+      width: 90%;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  
+    .content {
+      max-width: 320px;
+    }
+  }
+  
